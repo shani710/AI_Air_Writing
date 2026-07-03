@@ -1,0 +1,49 @@
+import os
+os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
+
+import cv2  # Add this import at the top
+
+# Camera settings
+CAMERA_INDEX = 0
+CAMERA_WIDTH = 640
+CAMERA_HEIGHT = 480
+CAMERA_FPS = 30
+
+# Hand tracking settings
+MIN_DETECTION_CONFIDENCE = 0.7
+MIN_TRACKING_CONFIDENCE = 0.5
+MAX_NUM_HANDS = 1
+
+# Drawing settings
+CANVAS_WIDTH = 640
+CANVAS_HEIGHT = 480
+DRAWING_COLOR = (0, 255, 0)  # Green
+DRAWING_THICKNESS = 5
+BACKGROUND_COLOR = (0, 0, 0)  # Black
+
+# Gesture settings
+PINCH_THRESHOLD = 0.05
+PINCH_RATIO_THRESHOLD = 0.1
+GESTURE_COOLDOWN_FRAMES = 30
+
+# Recognition settings
+RECOGNITION_CONFIDENCE_THRESHOLD = 0.7
+IMAGE_SIZE = (28, 28)
+NUM_CLASSES = 26
+
+# Data collection
+DATA_COLLECTION_DIR = "data/collected"
+PROCESSED_DATA_DIR = "data/processed"
+
+# Model training
+EPOCHS = 50
+BATCH_SIZE = 32
+VALIDATION_SPLIT = 0.2
+LEARNING_RATE = 0.001
+
+# UI settings
+WINDOW_NAME = "Air Writing System"
+FONT = cv2.FONT_HERSHEY_SIMPLEX
+FONT_SCALE = 1
+FONT_COLOR = (255, 255, 255)
+FONT_THICKNESS = 2
