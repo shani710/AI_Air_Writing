@@ -109,7 +109,7 @@ pip install -r requirements.txt
 ### 3. Run the Application
 
 ```bash
-python predict.py
+python src main.py
 ```
 
 ---
