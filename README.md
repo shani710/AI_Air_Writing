@@ -144,10 +144,12 @@ During this project, I gained hands-on experience with:
 
 Add screenshots, GIFs, or demo videos here to showcase the system in action.
 🎥 [Watch Demo Video](./air_writing_project/air%20writing.mp4).
-![Hand Tracking](./air_writing_project/air.png)
+
 
 ---
+### Hand Tracking
 
+![Hand Tracking](air_writing_project/air.png)
 ## 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
