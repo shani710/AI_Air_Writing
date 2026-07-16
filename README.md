@@ -143,8 +143,8 @@ During this project, I gained hands-on experience with:
 ## 📸 Demo
 
 Add screenshots, GIFs, or demo videos here to showcase the system in action.
-🎥 [Watch Demo Video](./air_writing_project/air%20writing.mp4)
-![Hand Tracking](/air.png)
+🎥 [Watch Demo Video](./air_writing_project/air%20writing.mp4).
+![Hand Tracking](./air_writing_project/air.png)
 
 ---
 
