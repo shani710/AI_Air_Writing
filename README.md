@@ -149,7 +149,7 @@ Add screenshots, GIFs, or demo videos here to showcase the system in action.
 ---
 ### Hand Tracking
 
-![Hand Tracking](air_writing_project/air.png)
+![Hand Tracking]<img width="677" height="388" alt="Image" src="https://github.com/user-attachments/assets/6ea1af89-6986-4597-bb64-6c99a187ec69" />
 ## 🤝 Contributing
 
 Contributions, suggestions, and improvements are welcome. Feel free to fork the repository and submit a pull request.
